@@ -22,4 +22,5 @@ public class MathCalculator {
         System.out.println("Результат расчета равен: " + sumSamAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + delSumAndMultiply(10, 20));
     }
+
 }
