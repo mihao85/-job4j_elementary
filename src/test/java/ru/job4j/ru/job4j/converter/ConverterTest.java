@@ -10,8 +10,9 @@ public class ConverterTest {
 
     @Test
     public void whenConvert140RblThen2Dollar() {
+
         float in = 140;
-        float expected = 7;
+        float expected = 8;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
