@@ -16,7 +16,6 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
 
-
     @Test
     public void whenA0B1C1X1Then40() {
         int a = 0;
