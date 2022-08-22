@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class X2 {
     public static int calc(int a, int b, int c, int x) {
-       int rsll = a * x * x + b * x + c;
+        int rsll = a * x * x + b * x + c;
         return rsll;
     }
 
