@@ -10,11 +10,11 @@ public class MathCalculator {
 
     public static double sumSamAndMultiply(double first, double second) {
 
-        return raz(first, second) + del(first, second);
+        return contrast(first, second) + division(first, second);
     }
 
     public static double delSumAndMultiply(double first, double second) {
-        return sum(first, second) + multiply(first, second) + raz(first, second) + del(first, second);
+        return sum(first, second) + multiply(first, second) + contrast(first, second) + division(first, second);
     }
 
     public static void main(String[] args) {
