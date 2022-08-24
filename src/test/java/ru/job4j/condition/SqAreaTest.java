@@ -3,6 +3,7 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
+
 import static org.assertj.core.api.AssertionsForClassTypes.offset;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
