@@ -20,4 +20,5 @@ public class MathFunction {
 
         return first / second;
     }
+
 }
