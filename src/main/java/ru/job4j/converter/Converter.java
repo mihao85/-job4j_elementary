@@ -12,6 +12,7 @@ public class Converter {
         return rsl;
     }
 
+
     public static void main(String[] args) {
         float euro = Converter.rubleToEuro(140);
         float dollar = Converter.rubleToDollar(140);
