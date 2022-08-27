@@ -3,7 +3,6 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 
 public class SqAreaTest {
 
@@ -12,8 +11,8 @@ public class SqAreaTest {
         int expected = 2;
         int p = 6;
         double k = 2;
-        double out = SqArea.square(p, k);
-        Assert.assertEquals(expected, out, 0.01);
+        double exit = SqArea.square(p, k);
+        Assert.assertEquals(expected, exit, 0.01);
     }
 
     @Test
@@ -21,8 +20,8 @@ public class SqAreaTest {
         double expected = 3.55;
         int p = 8;
         double k = 2;
-        double out = SqArea.square(p, k);
-        Assert.assertEquals(expected, out, 0.01);
+        double exit = SqArea.square(p, k);
+        Assert.assertEquals(expected, exit, 0.01);
     }
 
     @Test
@@ -30,8 +29,7 @@ public class SqAreaTest {
         double expected = 22.22;
         int p = 20;
         double k = 2;
-        double out = SqArea.square(p, k);
-        Assert.assertEquals(expected, out, 0.01);
+        double exit = SqArea.square(p, k);
+        Assert.assertEquals(expected, exit, 0.01);
     }
-
 }
