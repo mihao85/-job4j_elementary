@@ -6,8 +6,8 @@ import org.junit.Test;
 public class PointTest {
 
     @Test
-    public void whenX11X22X33X44Then() {
-        double expected = 2.85;
+    public void whenX1it1X2it2X3it3X4it4Then2dot82() {
+        double expected = 2.82;
         int x1 = 1;
         int y1 = 2;
         int x2 = 3;
@@ -17,7 +17,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenX12X23X34X45Then5() {
+    public void whenX1it2X2it3X3it4X4it5Then2dot82() {
         double expected = 2.82;
         int x1 = 2;
         int y1 = 3;
@@ -28,7 +28,7 @@ public class PointTest {
     }
 
     @Test
-    public void whenX13X24X35X46Then5() {
+    public void whenX1it3X2it4X3it5X4it6Then2dot82() {
         double expected = 2.82;
         int x1 = 3;
         int y1 = 4;
