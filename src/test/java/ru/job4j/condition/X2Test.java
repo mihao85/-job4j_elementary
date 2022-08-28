@@ -5,7 +5,6 @@ import org.junit.Test;
 
 public class X2Test {
 
-
     @Test
     public void whenA1B1C1X1Then3() {
         int a = 1;
